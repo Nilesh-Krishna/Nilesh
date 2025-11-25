@@ -1,0 +1,65 @@
+Basic Git Commands
+1. git init
+Meaning: Initializes a new Git repository in the current directory.
+Why: Starts version control for your project.
+
+2. git clone <repo-url>
+Meaning: Copies a remote repository to your local machine.
+Why: To work on an existing project from GitHub or other Git servers.
+
+3. git status
+Meaning: Shows the current state of your working directory and staging area.
+Why: To check which files are modified, staged, or untracked.
+
+4. git add .
+Meaning: Stages all changes (new, modified, deleted files) for commit.
+Why: Prepares files to be included in the next commit.
+
+(You can also use git add <filename> for specific files.)
+
+5. git commit -m "message"
+Meaning: Saves staged changes to the local repository with a message.
+Why: Creates a snapshot of your project history.
+
+6. git push -u origin <branch>
+Meaning: Pushes your local commits to the remote repository and sets upstream tracking.
+Why: Shares your changes with others and links your local branch to the remote branch.
+
+(After first push, you can just use git push.)
+
+7. git pull origin <branch>
+Meaning: Fetches and merges changes from the remote branch into your local branch.
+Why: Keeps your local copy up to date with the remote repository.
+
+8. git branch
+Meaning: Lists all branches in your repo.
+Why: To see which branch you are on and manage branches.
+
+9. git checkout -b <branch-name>
+Meaning: Creates a new branch and switches to it.
+Why: To work on a new feature without affecting the main branch.
+
+10. git merge <branch>
+Meaning: Combines changes from another branch into the current branch.
+Why: To integrate features or fixes.
+
+11. git remote -v
+
+Meaning: Shows remote repositories linked to your project.
+Why: To verify your GitHub URL or other remotes.
+
+12. git log
+Meaning: Displays commit history.
+Why: To review changes and authors.
+
+13. git rm -r <folder>
+Meaning: Removes a folder from the repository and stages the deletion.
+Why: To delete unwanted directories from GitHub.
+
+14. git config --global user.name "Your Name"
+Meaning: Sets your Git username globally.
+Why: Identifies you in commits.
+
+15. git config --global user.email "your-email@example.com"
+Meaning: Sets your Git email globally.
+Why: Links commits to your GitHub account.
